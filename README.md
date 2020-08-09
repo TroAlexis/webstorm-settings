@@ -9,4 +9,4 @@ My preferred Webstorm settings.
   <li>Rainbow Brackets</li>
   <li>String Manipulation</li>
   <li>Waka Time</li>
-  <li>IDEA Mind Map/li>
+  <li>IDEA Mind Map</li>
