@@ -1,7 +1,7 @@
 # webstorm-settings
 My preferred Webstorm settings.
 
-<ul>Plugins:
+<ul><b>Plugins:</b>
   <li>Material Theme UI</li>
   <li>Atom Material Icons</li>
   <li>Key Promoter X</li>
