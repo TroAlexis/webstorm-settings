@@ -21,5 +21,8 @@
       <option name="FONT_TYPE" value="2" />
       <option name="EFFECT_TYPE" value="4" />
     </pattern>
+    <filter name="TODO only">
+      <pattern index="0" />
+    </filter>
   </component>
 </application>
