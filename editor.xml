@@ -13,4 +13,16 @@
   <component name="InlayHintsSettings">
     <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
   </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern icon="question" useCustomColors="true" pattern="\binf\b.*">
+      <option name="FOREGROUND" value="19d70d" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="EFFECT_TYPE" value="4" />
+    </pattern>
+    <filter name="TODO only">
+      <pattern index="0" />
+    </filter>
+  </component>
 </application>
