@@ -1,0 +1,10 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="Vue" injector-id="js">
+      <display-name>Pug in Template Literals (JavaScript)</display-name>
+      <prefix>&lt;template lang=&quot;pug&quot;&gt;</prefix>
+      <suffix>&lt;/template&gt;</suffix>
+      <place><![CDATA[taggedString("pug")]]></place>
+    </injection>
+  </component>
+</application>
