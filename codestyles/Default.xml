@@ -13,4 +13,9 @@
       <option name="INDENT_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
+  <codeStyleSettings language="SCSS">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="1" />
+    </indentOptions>
+  </codeStyleSettings>
 </code_scheme>
