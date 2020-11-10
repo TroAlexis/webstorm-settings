@@ -3,6 +3,9 @@
   <JSCodeStyleSettings version="0">
     <option name="IMPORT_PREFER_ABSOLUTE_PATH" value="TRUE" />
   </JSCodeStyleSettings>
+  <codeStyleSettings language="HTML">
+    <option name="WRAP_ON_TYPING" value="0" />
+  </codeStyleSettings>
   <codeStyleSettings language="Jade">
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
