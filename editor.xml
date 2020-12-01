@@ -8,7 +8,7 @@
     <option name="FONT_FAMILY" value="Fira Code Medium" />
     <option name="LINE_SPACING" value="1.1" />
     <option name="USE_LIGATURES" value="true" />
-    <option name="SECONDARY_FONT_FAMILY" value="Ubuntu Mono" />
+    <option name="SECONDARY_FONT_FAMILY" value="JetBrains Mono" />
   </component>
   <component name="EditorSettings">
     <option name="BIDI_TEXT_DIRECTION" value="LTR" />
