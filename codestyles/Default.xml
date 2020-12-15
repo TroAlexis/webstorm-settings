@@ -1,4 +1,12 @@
 <code_scheme name="Default" version="173">
+  <HTMLCodeStyleSettings>
+    <option name="HTML_KEEP_LINE_BREAKS_IN_TEXT" value="false" />
+    <option name="HTML_ALIGN_TEXT" value="true" />
+    <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="html,thead,tbody,tfoot" />
+    <option name="HTML_INLINE_ELEMENTS" value="" />
+    <option name="HTML_DONT_ADD_BREAKS_IF_INLINE_CONTENT" value="" />
+    <option name="HTML_QUOTE_STYLE" value="Single" />
+  </HTMLCodeStyleSettings>
   <JSCodeStyleSettings version="0">
     <option name="IMPORT_PREFER_ABSOLUTE_PATH" value="TRUE" />
   </JSCodeStyleSettings>
