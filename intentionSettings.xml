@@ -1,5 +1,6 @@
 <application>
   <component name="IntentionManagerSettings">
     <ignoreAction name="JavaScript/Other/Replace double-quoted string with single-quoted string" />
+    <ignoreAction name="CSS/Extract ruleset" />
   </component>
 </application>
