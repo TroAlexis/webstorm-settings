@@ -4,6 +4,10 @@
       <CLASSES />
       <SOURCES />
     </library>
+    <library name="@types/slick-carousel" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
     <library name="jquery" type="javaScript">
       <properties>
         <option name="frameworkName" value="jQuery" />
