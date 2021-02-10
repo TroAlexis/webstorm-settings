@@ -1,6 +1,6 @@
 <keymap version="1" name="GNOME copy 1" parent="Default for GNOME">
   <action id="Tool_External Tools_Stylelint Fix">
-    <keyboard-shortcut first-keystroke="shift l" />
+    <mouse-shortcut keystroke="shift button2" />
   </action>
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
