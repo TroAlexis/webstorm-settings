@@ -5,14 +5,14 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.html" />
+    <option name="FILE_MASK" value="*.css" />
     <mask>*.xml</mask>
     <mask>*.pyw</mask>
     <mask>*.py</mask>
     <mask>*.js</mask>
     <mask>*.pug</mask>
     <mask>*.scss</mask>
-    <mask>*.css</mask>
     <mask>*.html</mask>
+    <mask>*.css</mask>
   </component>
 </application>
