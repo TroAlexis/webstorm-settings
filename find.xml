@@ -11,8 +11,8 @@
     <mask>*.py</mask>
     <mask>*.pug</mask>
     <mask>*.scss</mask>
-    <mask>*.css</mask>
     <mask>*.js</mask>
+    <mask>*.css</mask>
     <mask>*.html</mask>
   </component>
 </application>
