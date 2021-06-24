@@ -1,0 +1,11 @@
+<templateSet group="Vue">
+  <template name="vc" value="&lt;$tag$ :class=&quot;$style.$class$&quot;&gt;$end$&lt;/$tag$&gt;" shortcut="ENTER" description="module class" toReformat="false" toShortenFQNames="true">
+    <variable name="tag" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+      <option name="VUE_TEMPLATE" value="true" />
+    </context>
+  </template>
+</templateSet>
