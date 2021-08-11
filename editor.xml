@@ -13,5 +13,5 @@
   <component name="InlayHintsSettings">
     <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
   </component>
-  <component name="LiveEditOptions" nodeUpdateOnChanges="true" />
+  <component name="LiveEditOptions" nodeUpdateOnChanges="true" restartIfHotSwapFailed="true" />
 </application>
