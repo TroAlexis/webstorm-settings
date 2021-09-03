@@ -5,4 +5,12 @@
       <option name="CSS_DECLARATION_BLOCK" value="true" />
     </context>
   </template>
+  <template name="/itc" value="console.log('[$COMPONENT$] $METHOD_NAME$: ', e);" description="Try catch with descriptive console.log" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="METHOD_NAME" expression="jsMethodName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="VUE_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
