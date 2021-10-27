@@ -26,6 +26,10 @@
           <option name="url" value="git@github.com:docker/getting-started.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.heroku.com" />
+          <option name="userName" value="troalexis" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Development/WebstormProjects" />
