@@ -1,8 +1,8 @@
 <toolSet name="External Tools">
   <tool name="Stylelint Fix" description="Fix file with stylelint." showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="npx stylelint" />
-      <option name="PARAMETERS" value="$FileName$ --fix" />
+      <option name="COMMAND" value="stylelint" />
+      <option name="PARAMETERS" value="--fix $FilePathRelativeToProjectRoot$" />
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
