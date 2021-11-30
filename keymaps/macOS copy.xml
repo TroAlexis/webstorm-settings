@@ -6,4 +6,7 @@
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
   <action id="NewScratchFile" />
+  <action id="Tool_External Tools_Stylelint Fix Samolet">
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
 </keymap>
