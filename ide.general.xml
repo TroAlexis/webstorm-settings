@@ -13,7 +13,13 @@
   <component name="StatusBar">
     <option name="widgets">
       <map>
+        <entry key="Encoding" value="false" />
+        <entry key="LineSeparator" value="false" />
+        <entry key="Notifications" value="false" />
+        <entry key="ReadOnlyAttribute" value="false" />
+        <entry key="WakaTime" value="false" />
         <entry key="com.codota.intellij.common.notifier.CodotaStatusWidget" value="false" />
+        <entry key="com.intellij.psi.codeStyle.statusbar.CodeStyleStatusBarWidget" value="false" />
         <entry key="mtStatusBar" value="false" />
       </map>
     </option>
