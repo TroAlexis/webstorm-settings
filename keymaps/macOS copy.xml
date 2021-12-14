@@ -9,4 +9,5 @@
   <action id="Tool_External Tools_Stylelint Fix Samolet">
     <keyboard-shortcut first-keystroke="alt l" />
   </action>
+  <action id="tasks.switch" />
 </keymap>
