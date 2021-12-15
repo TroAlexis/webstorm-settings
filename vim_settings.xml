@@ -78,6 +78,15 @@
       <shortcut-conflict owner="vim">
         <text encoding="base64">YWx0IHByZXNzZWQgSA==</text>
       </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text encoding="base64">YWx0IHByZXNzZWQgQ0xPU0VfQlJBQ0tFVA==</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text encoding="base64">YWx0IHByZXNzZWQgT1BFTl9CUkFDS0VU</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text encoding="base64">c2hpZnQgYWx0IHByZXNzZWQgQw==</text>
+      </shortcut-conflict>
     </shortcut-conflicts>
   </component>
   <component name="VimSettings">
