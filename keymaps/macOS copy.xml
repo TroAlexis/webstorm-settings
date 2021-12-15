@@ -6,5 +6,11 @@
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
   <action id="NewScratchFile" />
+  <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
+  </action>
+  <action id="PreviousDiff">
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
+  </action>
   <action id="tasks.switch" />
 </keymap>
