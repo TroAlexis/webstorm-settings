@@ -1,5 +1,6 @@
 <application>
   <component name="TemplateSettings">
+    <defaultShortcut shortcut="ENTER" />
     <option name="deletedKeys">
       <list>
         <TemplateKey>
@@ -121,6 +122,10 @@
         <TemplateKey>
           <option name="groupName" value="Shell Script Hidden" />
           <option name="key" value="shell_command exists" />
+        </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="Vue" />
+          <option name="key" value="vprops" />
         </TemplateKey>
       </list>
     </option>
