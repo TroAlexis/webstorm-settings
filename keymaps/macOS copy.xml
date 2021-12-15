@@ -44,5 +44,8 @@
   <action id="PreviousDiff">
     <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="alt comma" />
+  </action>
   <action id="tasks.switch" />
 </keymap>
