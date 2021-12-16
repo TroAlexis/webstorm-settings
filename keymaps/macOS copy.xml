@@ -39,21 +39,22 @@
   </action>
   <action id="NewScratchFile" />
   <action id="NextDiff">
-    <keyboard-shortcut first-keystroke="ctrl alt j" />
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
   </action>
   <action id="PreviousDiff">
-    <keyboard-shortcut first-keystroke="ctrl alt k" />
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
+  <action id="RecentChanges" />
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="alt comma" />
   </action>
   <action id="VcsShowNextChangeMarker">
     <keyboard-shortcut first-keystroke="shift ctrl alt down" />
-    <keyboard-shortcut first-keystroke="ctrl alt j" />
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
   </action>
   <action id="VcsShowPrevChangeMarker">
     <keyboard-shortcut first-keystroke="shift ctrl alt up" />
-    <keyboard-shortcut first-keystroke="ctrl alt k" />
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
   <action id="tasks.switch" />
 </keymap>
