@@ -7,4 +7,24 @@
       <option name="VUE_TEMPLATE" value="true" />
     </context>
   </template>
+  <template name="vprop" value="$propName$: {&#10;    type: $type$,&#10;    default: $default$$END$&#10;}," description="Vue props with default" toReformat="true" toShortenFQNames="true">
+    <variable name="propName" expression="" defaultValue="&quot;propName&quot;" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="&quot;Number&quot;" alwaysStopAt="true" />
+    <variable name="default" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+  <template name="vpropo" value="$propName$: {&#10;    type: Object,&#10;    default: () =&gt; ({})&#10;}," description="Vue props with default" toReformat="true" toShortenFQNames="true">
+    <variable name="propName" expression="" defaultValue="&quot;propName&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+  <template name="vpropa" value="$propName$: {&#10;    type: Array,&#10;    default: () =&gt; ([])&#10;}," description="Vue props with default" toReformat="true" toShortenFQNames="true">
+    <variable name="propName" expression="" defaultValue="&quot;propName&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
 </templateSet>

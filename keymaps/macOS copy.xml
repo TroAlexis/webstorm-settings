@@ -1,4 +1,36 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+    <keyboard-shortcut first-keystroke="alt j" />
+  </action>
+  <action id="EditorDownWithSelection">
+    <keyboard-shortcut first-keystroke="shift down" />
+    <keyboard-shortcut first-keystroke="shift alt j" />
+  </action>
+  <action id="EditorLeft">
+    <keyboard-shortcut first-keystroke="left" />
+    <keyboard-shortcut first-keystroke="alt h" />
+  </action>
+  <action id="EditorLeftWithSelection">
+    <keyboard-shortcut first-keystroke="shift left" />
+    <keyboard-shortcut first-keystroke="shift alt h" />
+  </action>
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
+  <action id="EditorRightWithSelection">
+    <keyboard-shortcut first-keystroke="shift right" />
+    <keyboard-shortcut first-keystroke="shift alt l" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
+  <action id="EditorUpWithSelection">
+    <keyboard-shortcut first-keystroke="shift up" />
+    <keyboard-shortcut first-keystroke="shift alt k" />
+  </action>
   <action id="FindSelectionInPath">
     <keyboard-shortcut first-keystroke="shift meta caps_lock" />
   </action>
@@ -6,4 +38,31 @@
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
   <action id="NewScratchFile" />
+  <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
+  </action>
+  <action id="NextSplitter" />
+  <action id="PrevSplitter" />
+  <action id="PreviousDiff">
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
+  </action>
+  <action id="RecentChanges" />
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="alt comma" />
+  </action>
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="alt tab" />
+    <keyboard-shortcut first-keystroke="shift alt tab" />
+  </action>
+  <action id="Terminal.NextSplitter" />
+  <action id="Terminal.PrevSplitter" />
+  <action id="VcsShowNextChangeMarker">
+    <keyboard-shortcut first-keystroke="shift ctrl alt down" />
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
+  </action>
+  <action id="VcsShowPrevChangeMarker">
+    <keyboard-shortcut first-keystroke="shift ctrl alt up" />
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
+  </action>
+  <action id="tasks.switch" />
 </keymap>
