@@ -41,6 +41,8 @@
   <action id="NextDiff">
     <keyboard-shortcut first-keystroke="alt close_bracket" />
   </action>
+  <action id="NextSplitter" />
+  <action id="PrevSplitter" />
   <action id="PreviousDiff">
     <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
@@ -48,6 +50,12 @@
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="alt comma" />
   </action>
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="alt tab" />
+    <keyboard-shortcut first-keystroke="shift alt tab" />
+  </action>
+  <action id="Terminal.NextSplitter" />
+  <action id="Terminal.PrevSplitter" />
   <action id="VcsShowNextChangeMarker">
     <keyboard-shortcut first-keystroke="shift ctrl alt down" />
     <keyboard-shortcut first-keystroke="alt close_bracket" />
