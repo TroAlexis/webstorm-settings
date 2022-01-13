@@ -1,4 +1,11 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+    <mouse-shortcut keystroke="button4" />
+  </action>
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="alt j" />
@@ -31,9 +38,17 @@
     <keyboard-shortcut first-keystroke="shift up" />
     <keyboard-shortcut first-keystroke="shift alt k" />
   </action>
+  <action id="ExportToTextFile" />
   <action id="FindSelectionInPath">
     <keyboard-shortcut first-keystroke="shift meta caps_lock" />
   </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+    <mouse-shortcut keystroke="button5" />
+  </action>
+  <action id="Generate.Missing.Members.ES6" />
+  <action id="Generate.Missing.Members.TypeScript" />
+  <action id="ImplementMethods" />
   <action id="NewElementMenu">
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
@@ -42,6 +57,10 @@
     <keyboard-shortcut first-keystroke="alt close_bracket" />
   </action>
   <action id="NextSplitter" />
+  <action id="NextWindow">
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+  </action>
+  <action id="OverrideMethods" />
   <action id="PrevSplitter" />
   <action id="PreviousDiff">
     <keyboard-shortcut first-keystroke="alt open_bracket" />
@@ -56,6 +75,8 @@
   </action>
   <action id="Terminal.NextSplitter" />
   <action id="Terminal.PrevSplitter" />
+  <action id="UsageFiltering.Imports" />
+  <action id="UsageGrouping.FlattenModules" />
   <action id="VcsShowNextChangeMarker">
     <keyboard-shortcut first-keystroke="shift ctrl alt down" />
     <keyboard-shortcut first-keystroke="alt close_bracket" />
