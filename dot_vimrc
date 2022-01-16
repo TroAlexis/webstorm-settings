@@ -1,10 +1,16 @@
 let is_ide = has('ide')
+
 " Autoload plugins
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
   silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
+" Autoload plugins
+
+" Run chezmoi apply on saving a dotfile
+autocmd BufWritePost ~/.local/share/chezmoi/* ! chezmoi apply --source-path "%"
+" Run chezmoi apply on saving a dotfile
 
 call plug#begin('~/.vim/plugged')
 Plug 'easymotion/vim-easymotion'
