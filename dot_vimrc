@@ -1,0 +1,119 @@
+let is_ide = has('ide')
+" Autoload plugins
+let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
+if empty(glob(data_dir . '/autoload/plug.vim'))
+  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+call plug#begin('~/.vim/plugged')
+Plug 'easymotion/vim-easymotion'
+Plug 'machakann/vim-highlightedyank'
+Plug 'preservim/nerdtree'
+" ys, cs, ds, S
+Plug 'tpope/vim-surround'
+Plug 'terryma/vim-multiple-cursors'
+" gcc, gc + motion, v_gc
+Plug 'tpope/vim-commentary'
+" [count]["x]gr{motion}, [count]["x]grr, {Visual}["x]gr
+Plug 'vim-scripts/ReplaceWithRegister'
+" argument text objects: aa, ia
+Plug 'vim-scripts/argtextobj.vim'
+" cx, cxx, X, cxc
+Plug 'tommcdo/vim-exchange'
+" entire buffer text object: ae
+Plug 'kana/vim-textobj-user'
+Plug 'kana/vim-textobj-entire'
+" ai, ii, aI
+Plug 'michaeljsmith/vim-indent-object'
+Plug 'chrisbra/matchit'
+call plug#end()
+
+let mapleader=" "
+" Show a few lines of context around the cursor. Note that this makes the
+" text scroll if you mouse-click near the start or end of the window.
+set scrolloff=10
+set sidescroll=20
+set sidescrolloff=30
+set visualbell
+
+" Theme settings
+if !is_ide
+	syntax on
+	colorscheme atom-dark-256
+endif
+" Theme settings
+" Do incremental searching.
+set incsearch
+set ignorecase smartcase
+"message on the status line to show current mode
+set showmode
+"show (partial) command in the status bar
+set showcmd
+set hlsearch
+set number relativenumber
+set clipboard=unnamed
+
+let g:argtextobj_pairs="(:),{:},<:>"
+
+" Remap multiple-cursors shortcuts to match terryma/vim-multiple-cursors
+nmap <C-n> <Plug>NextWholeOccurrence
+xmap <C-n> <Plug>NextWholeOccurrence
+nmap g<C-n> <Plug>NextOccurrence
+xmap g<C-n> <Plug>NextOccurrence
+xmap <C-x> <Plug>SkipOccurrence
+xmap <C-p> <Plug>RemoveOccurrence
+
+" Scroll horizontally with uppercase H and L"
+nnoremap L 40l
+nnoremap H 40h
+
+" Easymotion ----
+map <leader>/ <Plug>(easymotion-s)
+map <leader>? <Plug>(easymotion-jumptoanywhere)
+" Easymotion ----
+
+" clear the search buffer when hitting return
+nnoremap <CR> :nohlsearch<CR><CR>
+
+" Map Tab to indent line
+nnoremap <Tab> >>_
+nnoremap <S-Tab> <<_
+inoremap <S-Tab> <C-D>
+vnoremap <Tab> >gv
+vnoremap <S-Tab> <gv
+
+" Map oo/OO to insert newline without entering insert mode
+nmap <leader>o o<Esc>k
+nmap <leader>O O<Esc>j
+
+map U <C-R>
+inoremap <C-l> <Del>
+
+" Shortcut to use blackhole register by default
+nnoremap d "_d
+vnoremap d "_d
+nnoremap D "_D
+vnoremap D "_D
+nnoremap c "_c
+vnoremap c "_c
+nnoremap C "_C
+vnoremap C "_C
+nnoremap x "_x
+vnoremap x "_x
+nnoremap X "_X
+vnoremap X "_X
+nnoremap <leader>d d
+vnoremap <leader>d d
+nnoremap <leader>D D
+vnoremap <leader>D D
+nnoremap <leader>c c
+vnoremap <leader>c c
+nnoremap <leader>C C
+vnoremap <leader>C C
+nnoremap <leader>x x
+vnoremap <leader>x x
+nnoremap <leader>X X
+vnoremap <leader>X X
+" Shortcut to use blackhole register by default
+

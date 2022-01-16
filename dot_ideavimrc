@@ -1,0 +1,47 @@
+source ~/.vimrc
+
+if has('ide')
+    set clipboard+=ideaput
+    " Smart join for <C-J>
+    set ideajoin
+    set ideamarks
+    set idearefactormode=keep
+    " Ideavim Extension for switching to English in normal"
+    let g:KeepEnglishName_package_name_package_name = "org.sil.ukelele.keyboardlayout.abcnl.abcnl"
+    set keep-english-in-normal-and-restore-in-insert
+    " Ideavim Extension for switching to English in normal"
+
+    " IDE menus
+    map <leader>mg <Action>(Git.MainMenu)
+    map <leader>mp <Action>(ManageRecentProjects)
+    map <leader>mi <Action>(ShowIntentionActions)
+    map <leader>mr <Action>(ChooseRunConfiguration)
+    map <leader>md <Action>(ChooseDebugConfiguration)
+    map <leader>ma <Action>(GotoAction)
+    map <leader>ms <Action>(SurroundWithLiveTemplate)
+    map <leader>mo <Action>(FileStructurePopup)
+    map gh <Action>(ShowErrorDescription)
+
+    map <leader>rn <Action>(RenameElement)
+    map <leader>rr <Action>(ReformatCode)
+    map <leader>re <Action>(Javascript.Linters.EsLint.Fix)
+
+    map <leader>p <Action>(SelectInProjectView)
+    map <leader>a <Action>(Annotate)
+    map <leader>b <Action>(ToggleLineBreakpoint)
+
+    " built-in navigation to navigated items works better
+    nmap <c-o> <Action>(Back)
+    nmap <c-i> <Action>(Forward)
+    " but preserve ideavim defaults
+    nnoremap g<c-o> <c-o>
+    nnoremap g<c-i> <c-i>
+
+    " built in search looks better
+    xnoremap / :action Find<cr>
+    noremap / :action Find<cr>
+    " but preserve ideavim search
+    xnoremap g/ /
+    noremap g/ /
+
+endif
