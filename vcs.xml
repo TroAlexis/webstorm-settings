@@ -34,6 +34,10 @@
           <option name="url" value="git@gitlab.idacloud.ru:Idaproject/samolet/scor.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:TroAlexis/svg-module.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Development/WebstormProjects" />
