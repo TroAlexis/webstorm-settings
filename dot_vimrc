@@ -93,6 +93,8 @@ vnoremap <S-Tab> <gv
 nmap <leader>o o<Esc>k
 nmap <leader>O O<Esc>j
 
+nnoremap K i<CR><Esc>
+
 map U <C-R>
 inoremap <C-l> <Del>
 
