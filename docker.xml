@@ -2,4 +2,7 @@
   <component name="ComposeFilesSynchronizedWithServiceView">
     <option value="file://$USER_HOME$/WebstormProjects/samolet-development/docker-compose.override.yml" />
   </component>
+  <component name="DockerSettings">
+    <option name="dockerPath" value="/usr/local/bin/docker" />
+  </component>
 </application>
