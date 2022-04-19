@@ -45,4 +45,13 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="vxat" value="export const $ACTION_TYPE$ = '$ACTION_TYPE_CAMEL$';" description="Vuex mutation type" toReformat="false" toShortenFQNames="true">
+    <variable name="ACTION_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACTION_TYPE_CAMEL" expression="camelCase(ACTION_TYPE)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
