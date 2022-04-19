@@ -1,0 +1,21 @@
+<templateSet group="JavaScript">
+  <template name="us" value="&quot;use strict&quot;;&#10;$END$" description="Inserts 'use strict' statement" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="desto" value="const {$items$} = $object$;" description="Destructure object" toReformat="false" toShortenFQNames="true">
+    <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="items" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="desta" value="const [$items$] = $array$;" description="Destructure array" toReformat="false" toShortenFQNames="true">
+    <variable name="array" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="items" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
