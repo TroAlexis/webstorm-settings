@@ -93,6 +93,9 @@ vnoremap <S-Tab> <gv
 nmap <leader>o o<Esc>k
 nmap <leader>O O<Esc>j
 
+" Map to insert inside brackets
+nnoremap <leader>pi a<CR>grr
+
 nnoremap K i<CR><Esc>l
 
 map U <C-R>
