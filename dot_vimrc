@@ -126,4 +126,4 @@ vnoremap <leader>X X
 " Shortcut to use blackhole register by default
 
 " Map to insert inside brackets
-nnoremap <leader>pi a<CR><Esc>ddP
+nnoremap <leader>pi a<CR><Esc>"_dd<S-p>
