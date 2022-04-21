@@ -20,13 +20,13 @@ if has('ide')
     map <leader>ma <Action>(GotoAction)
     map <leader>ms <Action>(SurroundWithLiveTemplate)
     map <leader>mo <Action>(FileStructurePopup)
+    map <leader>ml <Action>(SelectInProjectView)
     map gh <Action>(ShowErrorDescription)
 
     map <leader>rn <Action>(RenameElement)
     map <leader>rr <Action>(ReformatCode)
     map <leader>re <Action>(Javascript.Linters.EsLint.Fix)
 
-    map <leader>p <Action>(SelectInProjectView)
     map <leader>a <Action>(Annotate)
     map <leader>b <Action>(ToggleLineBreakpoint)
 
