@@ -23,6 +23,13 @@ if has('ide')
     map <leader>ml <Action>(SelectInProjectView)
     map gh <Action>(ShowErrorDescription)
 
+    map gsx <Action>(SplitHorizontally)
+    map gsy <Action>(SplitVertically)
+    map gsn <Action>(NextSplitter)
+    map gsN <Action>(PrevSplitter)
+    map gsu <Action>(Unsplit)
+    map gsuu <Action>(UnsplitAll)
+
     map <leader>rn <Action>(RenameElement)
     map <leader>rr <Action>(ReformatCode)
     map <leader>re <Action>(Javascript.Linters.EsLint.Fix)
