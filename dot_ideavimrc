@@ -27,7 +27,7 @@ if has('ide')
     map gsy <Action>(SplitVertically)
     map gsn <Action>(NextSplitter)
     map gsN <Action>(PrevSplitter)
-    map gsu <Action>(Unsplit)
+    map gsu <Action>(Unsplit)<Action>(FocusEditor)
     map gsU <Action>(UnsplitAll)
 
     map <leader>rn <Action>(RenameElement)
