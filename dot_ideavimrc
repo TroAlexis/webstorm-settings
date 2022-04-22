@@ -21,6 +21,7 @@ if has('ide')
     map <leader>ms <Action>(SurroundWithLiveTemplate)
     map <leader>mo <Action>(FileStructurePopup)
     map <leader>ml <Action>(SelectInProjectView)
+    map <leader>mn <Action>(ShowNavBar)
     map gh <Action>(ShowErrorDescription)
 
     map gsx <Action>(SplitHorizontally)
