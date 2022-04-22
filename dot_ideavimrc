@@ -28,7 +28,7 @@ if has('ide')
     map gsn <Action>(NextSplitter)
     map gsN <Action>(PrevSplitter)
     map gsu <Action>(Unsplit)
-    map gsuu <Action>(UnsplitAll)
+    map gsU <Action>(UnsplitAll)
 
     map <leader>rn <Action>(RenameElement)
     map <leader>rr <Action>(ReformatCode)
