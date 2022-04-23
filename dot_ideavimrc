@@ -35,6 +35,7 @@ if has('ide')
     map <leader>rr <Action>(ReformatCode)
     map <leader>re <Action>(Javascript.Linters.EsLint.Fix)
     map <leader>rs <Action>(Tool_External Tools_Stylelint.Fix)
+    map <leader>ri <Action>(OptimizeImports)
 
     map <leader>a <Action>(Annotate)
     map <leader>b <Action>(ToggleLineBreakpoint)
