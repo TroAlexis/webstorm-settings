@@ -3,6 +3,15 @@
     <template id="com.intellij.lang.javascript.template.postfix.JSIfStatementPostfixTemplate#.if" key=".if" provider="builtin.js" builtin="com.intellij.lang.javascript.template.postfix.JSIfStatementPostfixTemplate#.if" />
   </component>
   <component name="PostfixTemplatesSettings">
+    <option name="providerToDisabledTemplates">
+      <disabled-templates provider="builtin.js">
+        <value>
+          <set>
+            <option value="com.intellij.lang.javascript.template.postfix.JSForInPostfixTemplate#.itin" />
+          </set>
+        </value>
+      </disabled-templates>
+    </option>
     <option name="shortcut" value="10" />
   </component>
 </application>
