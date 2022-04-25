@@ -23,9 +23,10 @@ if has('ide')
     map <leader>mn <Action>(ShowNavBar)
     map gh <Action>(ShowErrorDescription)
 
-    map <leader>/f <Action>(GotoFile)
-    map <leader>/a <Action>(GotoAction)
-    map <leader>/c <Action>(GotoSymbol)
+    " Find actions
+    map ,ff <Action>(GotoFile)
+    map ,fa <Action>(GotoAction)
+    map ,fs <Action>(GotoSymbol)
 
     map gsx <Action>(SplitHorizontally)
     map gsy <Action>(SplitVertically)
