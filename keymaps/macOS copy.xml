@@ -6,6 +6,9 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
+  <action id="DockPinnedMode">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="alt j" />
@@ -42,12 +45,19 @@
   <action id="FindSelectionInPath">
     <keyboard-shortcut first-keystroke="shift meta caps_lock" />
   </action>
+  <action id="FloatMode">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta alt right" />
     <mouse-shortcut keystroke="button5" />
   </action>
   <action id="Generate.Missing.Members.ES6" />
   <action id="Generate.Missing.Members.TypeScript" />
+  <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="shift escape" />
+    <keyboard-shortcut first-keystroke="alt period" />
+  </action>
   <action id="ImplementMethods" />
   <action id="NewElementMenu">
     <keyboard-shortcut first-keystroke="shift meta n" />
@@ -84,6 +94,9 @@
   <action id="VcsShowPrevChangeMarker">
     <keyboard-shortcut first-keystroke="shift ctrl alt up" />
     <keyboard-shortcut first-keystroke="alt open_bracket" />
+  </action>
+  <action id="WindowMode">
+    <keyboard-shortcut first-keystroke="alt w" />
   </action>
   <action id="tasks.switch" />
 </keymap>
