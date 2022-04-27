@@ -63,6 +63,10 @@
     <keyboard-shortcut first-keystroke="shift escape" />
     <keyboard-shortcut first-keystroke="alt x" />
   </action>
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="shift meta f12" />
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
   <action id="ImplementMethods" />
   <action id="JumpToLastWindow">
     <keyboard-shortcut first-keystroke="f12" />
