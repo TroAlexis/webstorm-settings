@@ -1,6 +1,7 @@
 source ~/.vimrc
 
 if has('ide')
+set clipboard+=unnamed
     set clipboard+=ideaput
     " Smart join for <C-J>
     set ideajoin
@@ -10,6 +11,11 @@ if has('ide')
     let g:KeepEnglishName_package_name_package_name = "org.sil.ukelele.keyboardlayout.abcnl.abcnl"
     set keep-english-in-normal-and-restore-in-insert
     " Ideavim Extension for switching to English in normal"
+
+    " Config manipulations
+    nnoremap \e :e ~/.ideavimrc<CR>
+    nnoremap \r :action IdeaVim.ReloadVimRc.reload<CR>
+    " Config manipulations
 
     " IDE menus
     map <leader>mg <Action>(Git.MainMenu)
