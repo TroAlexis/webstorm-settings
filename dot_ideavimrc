@@ -34,7 +34,8 @@ set clipboard+=unnamed
     " IDE menus
 
     " Tool windows
-    map <c-p> <Action>(JumpToLastWindow)
+    nnoremap <c-p> :action JumpToLastWindow<CR>
+    nnoremap <c-x> :action HideAllWindows<CR>
 
     " Hover mapping
     map gh <Action>(ShowErrorDescription)
