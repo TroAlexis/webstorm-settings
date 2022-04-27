@@ -17,6 +17,8 @@ set clipboard+=unnamed
     nnoremap \r :action IdeaVim.ReloadVimRc.reload<CR>
     " Config manipulations
 
+    set inccommand=split
+
     " IDE menus
     map <leader>mg <Action>(Git.MainMenu)
     map <leader>mp <Action>(ManageRecentProjects)
