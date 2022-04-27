@@ -80,11 +80,8 @@ set clipboard+=unnamed
     nnoremap g<c-o> <c-o>
     nnoremap g<c-i> <c-i>
 
-    " built in search looks better
-    xnoremap / :action Find<cr>
-    noremap / :action Find<cr>
-    " but preserve ideavim search
-    xnoremap g/ /
-    noremap g/ /
+    " built in search
+    xnoremap g/ :action Find<cr>
+    noremap g/ :action Find<cr>
 
 endif
