@@ -31,7 +31,7 @@ if has('ide')
     map gsx <Action>(SplitHorizontally)
     map gsy <Action>(SplitVertically)
     map gsn <Action>(NextSplitter)
-    map gsN <Action>(PrevSplitter)
+    map gsN <Action>(PrevSplitter) \| <Action>(Diff.FocusOppositePane)
     map gsu <Action>(Unsplit)<Action>(ActivateProjectToolWindow)
     map gsU <Action>(UnsplitAll)<Action>(ActivateProjectToolWindow)
 
