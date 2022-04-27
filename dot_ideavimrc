@@ -18,14 +18,22 @@ set clipboard+=unnamed
 
     " IDE menus
     map <leader>mg <Action>(Git.MainMenu)
+
     map <leader>mp <Action>(ManageRecentProjects)
-    map <leader>mi <Action>(ShowIntentionActions)
+    map <leader>mn <Action>(ShowNavBar)
+    map <leader>ml <Action>(SelectInProjectView)
+
     map <leader>mr <Action>(ChooseRunConfiguration)
     map <leader>md <Action>(ChooseDebugConfiguration)
+
     map <leader>ms <Action>(SurroundWithLiveTemplate)
+
     map <leader>mo <Action>(FileStructurePopup)
-    map <leader>ml <Action>(SelectInProjectView)
-    map <leader>mn <Action>(ShowNavBar)
+    map <leader>mu <Action>(FindUsages)
+    map <leader>mh <Action>(CallHierarchy)
+    " IDE menus
+
+    " Hover mapping
     map gh <Action>(ShowErrorDescription)
 
     " Terminal
@@ -34,7 +42,7 @@ set clipboard+=unnamed
     " Terminal
 
     " Find actions
-    map ,f, <Action>(GotoFile)
+    map ,fg <Action>(FindInPath)
     map ,ff <Action>(GotoFile)
     map ,fa <Action>(GotoAction)
     map ,fs <Action>(GotoSymbol)
