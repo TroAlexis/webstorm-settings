@@ -13,7 +13,7 @@ set clipboard+=unnamed
     " Ideavim Extension for switching to English in normal"
 
     " Config manipulations
-    nnoremap \e :shell <Bar> chezmoi edit<CR>
+    nnoremap \e :shell<CR> <Bar> 'chezmoi edit'<CR>
     nnoremap \r :action IdeaVim.ReloadVimRc.reload<CR>
     " Config manipulations
 
@@ -39,7 +39,7 @@ set clipboard+=unnamed
     map gsx <Action>(SplitHorizontally)
     map gsy <Action>(SplitVertically)
     map gsn <Action>(NextSplitter)
-    map gsN <Action>(PrevSplitter) \| <Action>(Diff.FocusOppositePane)
+    map gsN <Action>(PrevSplitter)
     map gsu <Action>(Unsplit)<Action>(ActivateProjectToolWindow)
     map gsU <Action>(UnsplitAll)<Action>(ActivateProjectToolWindow)
 
