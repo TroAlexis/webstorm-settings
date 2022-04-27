@@ -21,6 +21,7 @@ set clipboard+=unnamed
 
     map <leader>mp <Action>(ManageRecentProjects)
     map <leader>mn <Action>(ShowNavBar)
+    map <leader>mv <Action>(ActivateProjectToolWindow)
     map <leader>ml <Action>(SelectInProjectView)
 
     map <leader>mr <Action>(ChooseRunConfiguration)
