@@ -80,7 +80,7 @@ map <leader>? <Plug>(easymotion-jumptoanywhere)
 " Easymotion ----
 
 " clear the search buffer when hitting return
-nnoremap <CR> :nohlsearch<CR><CR>
+nnoremap <CR> :nohlsearch<CR>
 
 " Map Tab to indent line
 nnoremap <Tab> >>_
@@ -97,6 +97,8 @@ nnoremap K i<CR><Esc>l
 
 map U <C-R>
 inoremap <C-l> <Del>
+
+nnoremap Y y$
 
 " Shortcut to use blackhole register by default
 nnoremap d "_d
