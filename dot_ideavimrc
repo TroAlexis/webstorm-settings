@@ -29,7 +29,7 @@ set clipboard+=unnamed
     map <leader>ms <Action>(SurroundWithLiveTemplate)
 
     map <leader>mo <Action>(FileStructurePopup)
-    map <leader>mu <Action>(FindUsages)
+    map <leader>mu <Action>(FindUsagesMenuGroup)
     map <leader>mh <Action>(CallHierarchy)
     " IDE menus
 
