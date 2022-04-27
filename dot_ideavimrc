@@ -36,7 +36,7 @@ set clipboard+=unnamed
 
     " Tool windows
     nnoremap <c-p> :action JumpToLastWindow<CR>
-    nnoremap <c-x> :action HideAllWindows<CR>
+    nnoremap <c-h> :action HideAllWindows<CR>
 
     " Hover mapping
     map gh <Action>(ShowErrorDescription)
