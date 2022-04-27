@@ -13,7 +13,6 @@ set clipboard+=unnamed
     " Ideavim Extension for switching to English in normal"
 
     " Config manipulations
-    map \e <Action>(ActivateTerminalToolWindow) | :!chezmoi edit
     nnoremap \r :action IdeaVim.ReloadVimRc.reload<CR>
     " Config manipulations
 
@@ -38,8 +37,7 @@ set clipboard+=unnamed
 
     map gsx <Action>(SplitHorizontally)
     map gsy <Action>(SplitVertically)
-    map gsn <Action>(NextSplitter)
-    map gsN <Action>(PrevSplitter)
+    map gsn <Action>(MoveEditorToOppositeTabGroup)
     map gsu <Action>(Unsplit)<Action>(ActivateProjectToolWindow)
     map gsU <Action>(UnsplitAll)<Action>(ActivateProjectToolWindow)
 
