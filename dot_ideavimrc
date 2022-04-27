@@ -16,8 +16,6 @@ set clipboard+=unnamed
     nnoremap \r :action IdeaVim.ReloadVimRc.reload<CR>
     " Config manipulations
 
-    set inccommand=split
-
     " IDE menus
     map <leader>mg <Action>(Git.MainMenu)
     map <leader>mp <Action>(ManageRecentProjects)
@@ -30,23 +28,39 @@ set clipboard+=unnamed
     map <leader>mn <Action>(ShowNavBar)
     map gh <Action>(ShowErrorDescription)
 
+    " Terminal
+    map <leader>tt <Action>(ActivateTerminalToolWindow)
+    map <leader>te <Action>(Terminal.OpenInTerminal)
+    " Terminal
+
     " Find actions
+    map ,f, <Action>(GotoFile)
     map ,ff <Action>(GotoFile)
     map ,fa <Action>(GotoAction)
     map ,fs <Action>(GotoSymbol)
 
+    " Splitting editor
     map gsx <Action>(SplitHorizontally)
     map gsy <Action>(SplitVertically)
     map gsn <Action>(NextSplitter)
     map gsN <Action>(PrevSplitter)
     map gsu <Action>(Unsplit)<Action>(ActivateProjectToolWindow)
     map gsU <Action>(UnsplitAll)<Action>(ActivateProjectToolWindow)
+    " Splitting editor
 
+    " Refactoring
     map <leader>rn <Action>(RenameElement)
     map <leader>rr <Action>(ReformatCode)
     map <leader>re <Action>(Javascript.Linters.EsLint.Fix)
     map <leader>rs <Action>(Tool_External Tools_Stylelint.Fix)
     map <leader>ri <Action>(OptimizeImports)
+    map <leader>rt <Action>(Refactorings.QuickListPopupAction)
+    " Refactoring
+
+    " History
+    map <leader>hg <Action>(Vcs.ShowTabbedFileHistory)
+    map <leader>hl <Action>(LocalHistory.ShowHistory)
+    " History
 
     map <leader>a <Action>(Annotate)
     map <leader>b <Action>(ToggleLineBreakpoint)
