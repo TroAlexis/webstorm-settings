@@ -9,6 +9,11 @@
   <action id="DockPinnedMode">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="meta down" />
+    <keyboard-shortcut first-keystroke="f4" />
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="alt j" />
@@ -56,9 +61,13 @@
   <action id="Generate.Missing.Members.TypeScript" />
   <action id="HideActiveWindow">
     <keyboard-shortcut first-keystroke="shift escape" />
-    <keyboard-shortcut first-keystroke="ctrl x" />
+    <keyboard-shortcut first-keystroke="alt x" />
   </action>
   <action id="ImplementMethods" />
+  <action id="JumpToLastWindow">
+    <keyboard-shortcut first-keystroke="f12" />
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
   <action id="NewElementMenu">
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
