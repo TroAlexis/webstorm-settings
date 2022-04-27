@@ -37,7 +37,8 @@ set clipboard+=unnamed
 
     map gsx <Action>(SplitHorizontally)
     map gsy <Action>(SplitVertically)
-    map gsn <Action>(MoveEditorToOppositeTabGroup)
+    map gsn <Action>(NextSplitter)
+    map gsN <Action>(PrevSplitter)
     map gsu <Action>(Unsplit)<Action>(ActivateProjectToolWindow)
     map gsU <Action>(UnsplitAll)<Action>(ActivateProjectToolWindow)
 
