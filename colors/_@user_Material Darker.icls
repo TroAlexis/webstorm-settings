@@ -4,7 +4,7 @@
     <property name="created">2020-05-31T13:52:03</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2020.1.1.0.0</property>
-    <property name="modified">2021-06-27T17:32:14</property>
+    <property name="modified">2022-04-27T15:48:04</property>
     <property name="originalScheme">Material Darker</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Fira Code" />
@@ -70,7 +70,7 @@
     <option name="ScrollBar.Mac.Transparent.trackColor" value="212121" />
     <option name="ScrollBar.Mac.hoverThumbColor" value="ff9800" />
     <option name="ScrollBar.Mac.hoverTrackColor" value="212121" />
-    <option name="ScrollBar.Mac.thumbColor" value="ff98000" />
+    <option name="ScrollBar.Mac.thumbColor" value="f98000" />
     <option name="ScrollBar.Mac.trackColor" value="212121" />
     <option name="ScrollBar.Transparent.hoverThumbColor" value="ff9800c0" />
     <option name="ScrollBar.Transparent.hoverTrackColor" value="212121" />
@@ -1288,7 +1288,7 @@
         <option name="FOREGROUND" value="c792ea" />
       </value>
     </option>
-    <option name="JSP_DIRECTIVE_NAME" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="JSP_DIRECTIVE_NAME" baseAttributes="" />
     <option name="JUPYTER_SELECTED_CELL">
       <value>
         <option name="BACKGROUND" value="323232" />
@@ -2930,7 +2930,6 @@
         <option name="FOREGROUND" value="ffcb6b" />
       </value>
     </option>
-    <option name="PY.BUILTIN_NAME" baseAttributes="" />
     <option name="PY.DECORATOR">
       <value>
         <option name="FOREGROUND" value="82aaff" />
@@ -3580,9 +3579,11 @@
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="212c32" />
-        <option name="BACKGROUND" value="f8e71c" />
-        <option name="EFFECT_COLOR" value="f8e71c" />
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="ffe153" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_COLOR" value="ffe153" />
+        <option name="ERROR_STRIPE_COLOR" value="7c238e" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
