@@ -13,7 +13,7 @@ set clipboard+=unnamed
     " Ideavim Extension for switching to English in normal"
 
     " Config manipulations
-    nnoremap \e :shell<CR> <Bar> 'chezmoi edit'<CR>
+    nnoremap \e :shell<CR> <C-j> "hello"
     nnoremap \r :action IdeaVim.ReloadVimRc.reload<CR>
     " Config manipulations
 
