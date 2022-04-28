@@ -60,7 +60,6 @@
   <action id="Generate.Missing.Members.ES6" />
   <action id="Generate.Missing.Members.TypeScript" />
   <action id="HideActiveWindow">
-    <keyboard-shortcut first-keystroke="shift escape" />
     <keyboard-shortcut first-keystroke="alt x" />
   </action>
   <action id="HideAllWindows">
