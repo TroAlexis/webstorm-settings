@@ -100,14 +100,6 @@
   <action id="Terminal.PrevSplitter" />
   <action id="UsageFiltering.Imports" />
   <action id="UsageGrouping.FlattenModules" />
-  <action id="VcsShowNextChangeMarker">
-    <keyboard-shortcut first-keystroke="shift ctrl alt down" />
-    <keyboard-shortcut first-keystroke="alt close_bracket" />
-  </action>
-  <action id="VcsShowPrevChangeMarker">
-    <keyboard-shortcut first-keystroke="shift ctrl alt up" />
-    <keyboard-shortcut first-keystroke="alt open_bracket" />
-  </action>
   <action id="WindowMode">
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
