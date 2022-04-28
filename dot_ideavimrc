@@ -75,9 +75,6 @@ set clipboard+=unnamed
     map <leader>a <Action>(Annotate)
     map <leader>b <Action>(ToggleLineBreakpoint)
 
-    nmap <M-C>j <Action>(VcsShowNextChangeMarker)
-    nmap <M-C>k <Action>(VcsShowPrevChangeMarker)
-
     " built-in navigation to navigated items works better
     nmap <c-o> <Action>(Back)
     nmap <c-i> <Action>(Forward)
