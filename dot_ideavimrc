@@ -75,8 +75,6 @@ set clipboard+=unnamed
     map <leader>a <Action>(Annotate)
     map <leader>b <Action>(ToggleLineBreakpoint)
 
-    map <C-O-,> 5j
-
     " built-in navigation to navigated items works better
     nmap <c-o> <Action>(Back)
     nmap <c-i> <Action>(Forward)
