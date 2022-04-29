@@ -1,89 +1,156 @@
 source ~/.vimrc
 
 if has('ide')
-set clipboard+=unnamed
-    set clipboard+=ideaput
-    " Smart join for <C-J>
-    set ideajoin
-    set ideamarks
-    set idearefactormode=keep
-    " Ideavim Extension for switching to English in normal"
-    let g:KeepEnglishName_package_name_package_name = "org.sil.ukelele.keyboardlayout.abcnl.abcnl"
-    set keep-english-in-normal-and-restore-in-insert
-    " Ideavim Extension for switching to English in normal"
+	set clipboard+=unnamed
+	set clipboard+=ideaput
+	" Smart join for <C-J>
+	set ideajoin
+	set ideamarks
+	set idearefactormode=keep
+	" Ideavim Extension for switching to English in normal"
+	let g:KeepEnglishName_package_name_package_name = "org.sil.ukelele.keyboardlayout.abcnl.abcnl"
+	set keep-english-in-normal-and-restore-in-insert
+	" Ideavim Extension for switching to English in normal"
 
-    " Config manipulations
-    nnoremap \e :e ~/.ideavimrc<CR>
-    nnoremap \r :action IdeaVim.ReloadVimRc.reload<CR>
-    " Config manipulations
+	" Config manipulations
+	nnoremap \e :e ~/.ideavimrc<CR>
+	nnoremap \r :action IdeaVim.ReloadVimRc.reload<CR>
+	" Config manipulations
 
-    " IDE menus
-    map <leader>mg <Action>(Git.MainMenu)
+	" Spacemacs mappings
+	nnoremap <leader><Space>    :action GotoAction<CR>
+	vnoremap <leader><Space>    :action GotoAction<CR>
 
-    map <leader>mp <Action>(ManageRecentProjects)
-    map <leader>mn <Action>(ShowNavBar)
-    map <leader>mv <Action>(ActivateProjectToolWindow)
-    map <leader>ml <Action>(SelectInProjectView)
+	" Focus last buffer
+	nnoremap <leader><Tab>    <C-S-6>
+	vnoremap <leader><Tab>    <Esc><C-S-6>
 
-    map <leader>mr <Action>(ChooseRunConfiguration)
-    map <leader>md <Action>(ChooseDebugConfiguration)
+	" Open in terminal
+	nnoremap <leader>!    :action Terminal.OpenInTerminal<CR>
+	vnoremap <leader>!    :action Terminal.OpenInTerminal<CR>
 
-    map <leader>ms <Action>(SurroundWithLiveTemplate)
+	nnoremap <leader>'    :action ActivateTerminalToolWindow<CR>
+	vnoremap <leader>'    :action ActivateTerminalToolWindow<CR>
 
-    map <leader>mo <Action>(FileStructurePopup)
-    map <leader>mu <Action>(FindUsagesMenuGroup)
-    map <leader>mh <Action>(CallHierarchy)
-    " IDE menus
+	nnoremap <leader>*    :action ShowUsages<CR>
+	vnoremap <leader>*    :action ShowUsages<CR>
 
-    " Hover mapping
-    map gh <Action>(ShowErrorDescription)
+	"Find in path TODO
+	
+	nnoremap <leader>bb    :action RecentFiles<CR>
+	vnoremap <leader>bb    :action RecentFiles<CR>
 
-    " Terminal
-    map <leader>tt <Action>(ActivateTerminalToolWindow)
-    map <leader>te <Action>(Terminal.OpenInTerminal)
-    " Terminal
+	" Close current tab
+	nnoremap <leader>bd    :action CloseContent<CR>
+	vnoremap <leader>bd    <Esc>:action CloseContent<CR>
 
-    " Find actions
-    map ,fg <Action>(FindInPath)
-    map ,ff <Action>(GotoFile)
-    map ,fa <Action>(GotoAction)
-    map ,fs <Action>(GotoSymbol)
+	" Show event log
+	nnoremap <leader>bm    :action ActivateEventLogToolWindow<CR>
+	vnoremap <leader>bm    :action ActivateEventLogToolWindow<CR>
 
-    " Splitting editor
-    map gsx <Action>(SplitHorizontally)
-    map gsy <Action>(SplitVertically)
-    map gsn <Action>(NextSplitter)
-    map gsN <Action>(PrevSplitter)
-    map gsu <Action>(Unsplit)<Action>(ActivateProjectToolWindow)
-    map gsU <Action>(UnsplitAll)<Action>(ActivateProjectToolWindow)
-    " Splitting editor
+	" Reopen last closed tab
+	nnoremap <leader>bu    :action ReopenClosedTab<CR>
+	vnoremap <leader>bu    <Esc>:action ReopenClosedTab<CR>
 
-    " Refactoring
-    map <leader>rn <Action>(RenameElement)
-    map <leader>rr <Action>(ReformatCode)
-    map <leader>re <Action>(Javascript.Linters.EsLint.Fix)
-    map <leader>rs <Action>(Tool_External Tools_Stylelint.Fix)
-    map <leader>ri <Action>(OptimizeImports)
-    map <leader>rt <Action>(Refactorings.QuickListPopupAction)
-    " Refactoring
+	" Close a window together with its tabs
+	nnoremap <leader>bx    :action CloseAllEditors<CR>
+	vnoremap <leader>bx    <Esc>:action CloseAllEditors<CR>
 
-    " History
-    map <leader>hg <Action>(Vcs.ShowTabbedFileHistory)
-    map <leader>hl <Action>(LocalHistory.ShowHistory)
-    " History
+	" -- Colors --
+	
+	" Pick color
+	nnoremap <leader>Cl    :action ShowColorPicker<CR>
+	vnoremap <leader>Cl    :action ShowColorPicker<CR>
 
-    map <leader>a <Action>(Annotate)
-    map <leader>b <Action>(ToggleLineBreakpoint)
+	" -- Colors --
 
-    " built-in navigation to navigated items works better
-    nmap <c-o> <Action>(Back)
-    nmap <c-i> <Action>(Forward)
-    " but preserve ideavim defaults
-    nnoremap g<c-o> <c-o>
-    nnoremap g<c-i> <c-i>
+	" -- Errors --
 
-    " built in search
-    xnoremap g/ :action Find<cr>
-    noremap g/ :action Find<cr>
+	" List errors
+	nnoremap <leader>el    :action CodeInspection.OnEditor<CR>
+	vnoremap <leader>el    :action CodeInspection.OnEditor<CR>
+
+	" Go to next error
+	nnoremap <leader>en    :action GotoNextError<CR>
+	vnoremap <leader>en    <Esc>:action GotoNextError<CR>
+
+	" Go to previous error
+	nnoremap <leader>ep    :action GotoPreviousError<CR>
+	vnoremap <leader>ep    <Esc>:action GotoPreviousError<CR>
+
+	" Explain error at cursor
+	nnoremap <leader>ex    :action ShowErrorDescription<CR>
+	vnoremap <leader>ex    :action ShowErrorDescription<CR>
+
+	" -- Errors --
+
+	" IDE menus
+	map <leader>mg <Action>(Git.MainMenu)
+
+	map <leader>mp <Action>(ManageRecentProjects)
+	map <leader>mn <Action>(ShowNavBar)
+	map <leader>mv <Action>(ActivateProjectToolWindow)
+	map <leader>ml <Action>(SelectInProjectView)
+
+	map <leader>mr <Action>(ChooseRunConfiguration)
+	map <leader>md <Action>(ChooseDebugConfiguration)
+
+	map <leader>ms <Action>(SurroundWithLiveTemplate)
+
+	map <leader>mo <Action>(FileStructurePopup)
+	map <leader>mu <Action>(FindUsagesMenuGroup)
+	map <leader>mh <Action>(CallHierarchy)
+	" IDE menus
+
+	" Hover mapping
+	map gh <Action>(ShowErrorDescription)
+
+	" Terminal
+	map <leader>tt <Action>(ActivateTerminalToolWindow)
+	map <leader>te <Action>(Terminal.OpenInTerminal)
+	" Terminal
+
+	" Find actions
+	map ,fg <Action>(FindInPath)
+	map ,ff <Action>(GotoFile)
+	map ,fa <Action>(GotoAction)
+	map ,fs <Action>(GotoSymbol)
+
+	" Splitting editor
+	map gsx <Action>(SplitHorizontally)
+	map gsy <Action>(SplitVertically)
+	map gsn <Action>(NextSplitter)
+	map gsN <Action>(PrevSplitter)
+	map gsu <Action>(Unsplit)<Action>(ActivateProjectToolWindow)
+	map gsU <Action>(UnsplitAll)<Action>(ActivateProjectToolWindow)
+	" Splitting editor
+
+	" Refactoring
+	map <leader>rn <Action>(RenameElement)
+	map <leader>rr <Action>(ReformatCode)
+	map <leader>re <Action>(Javascript.Linters.EsLint.Fix)
+	map <leader>rs <Action>(Tool_External Tools_Stylelint.Fix)
+	map <leader>ri <Action>(OptimizeImports)
+	map <leader>rt <Action>(Refactorings.QuickListPopupAction)
+	" Refactoring
+
+	" History
+	map <leader>hg <Action>(Vcs.ShowTabbedFileHistory)
+	map <leader>hl <Action>(LocalHistory.ShowHistory)
+	" History
+
+	map <leader>a <Action>(Annotate)
+	map <leader>b <Action>(ToggleLineBreakpoint)
+
+	" built-in navigation to navigated items works better
+	nmap <c-o> <Action>(Back)
+	nmap <c-i> <Action>(Forward)
+	" but preserve ideavim defaults
+	nnoremap g<c-o> <c-o>
+	nnoremap g<c-i> <c-i>
+
+	" built in search
+	xnoremap g/ :action Find<cr>
+	noremap g/ :action Find<cr>
 
 endif
