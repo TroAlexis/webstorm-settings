@@ -79,6 +79,9 @@ map <leader>/ <Plug>(easymotion-s)
 map <leader>? <Plug>(easymotion-jumptoanywhere)
 " Easymotion ----
 
+" Search for selected text
+vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
+
 " clear the search buffer when hitting return
 nnoremap <CR> :nohlsearch<CR>
 
