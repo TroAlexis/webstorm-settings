@@ -48,8 +48,8 @@ if has('ide')
 	vnoremap <leader>pfy    :action CopyAbsolutePath<CR>
 
 	" Project new file
-	nnoremap <leader>pfn    :action FileChooser.NewFile<CR>
-	vnoremap <leader>pfn    :action FileChooser.NewFile<CR>
+	nnoremap <leader>pfn    :action NewElementMenu<CR>
+	vnoremap <leader>pfn    :action NewElementMenu<CR>
 
 	" -- Colors --
 	
@@ -101,8 +101,8 @@ if has('ide')
 	vnoremap <leader>gv+    :action Vcs.UpdateProject<CR>
 
 	" Annotate. Show when each line was last edited and by whom.
-	nnoremap <leader>gvg    :action Annotate<CR>
-	vnoremap <leader>gvg    :action Annotate<CR>
+	nnoremap <leader>ga    :action Annotate<CR>
+	vnoremap <leader>ga    :action Annotate<CR>
 
 	" Show log (git log)
 	nnoremap <leader>gvl    :action Vcs.Show.Log<CR>
