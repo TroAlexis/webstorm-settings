@@ -48,8 +48,8 @@ if has('ide')
 	vnoremap <leader>pfy    :action CopyAbsolutePath<CR>
 
 	" Project new file
-	nnoremap <leader>pfn    :action NewFile<CR>
-	vnoremap <leader>pfn    :action NewFile<CR>
+	nnoremap <leader>pfn    :action FileChooser.NewFile<CR>
+	vnoremap <leader>pfn    :action FileChooser.NewFile<CR>
 
 	" -- Colors --
 	
