@@ -35,6 +35,10 @@ if has('ide')
 	nnoremap <leader>pr    :action RecentFiles<CR>
 	vnoremap <leader>pr    :action RecentFiles<CR>
 
+	" Project new file
+	nnoremap <leader>pr    :action NewFile<CR>
+	vnoremap <leader>pr    :action NewFile<CR>
+
 	" Project save
 	nnoremap <leader>pS    :action SaveAll<CR>
 	vnoremap <leader>pS    :action SaveAll<CR>
