@@ -274,6 +274,7 @@ if has('ide')
 	map <leader>ml <Action>(SelectInProjectView)
 
 	map <leader>mr <Action>(ChooseRunConfiguration)
+	map <leader>mR <Action>(RunClass)
 	map <leader>md <Action>(ChooseDebugConfiguration)
 
 	map <leader>ms <Action>(SurroundWithLiveTemplate)
