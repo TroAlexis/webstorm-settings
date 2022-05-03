@@ -311,8 +311,8 @@ if has('ide')
 	vnoremap <leader>fg    :action FindInPath<CR>
 
 	" Find symbol
-	nnoremap <leader>fs    :action FindSymbol<CR>
-	vnoremap <leader>fs    :action FindSymbol<CR>
+	nnoremap <leader>fs    :action GotoSymbol<CR>
+	vnoremap <leader>fs    :action GotoSymbol<CR>
 
 	" Refactoring
 	map <leader>rn <Action>(RenameElement)
