@@ -322,6 +322,7 @@ if has('ide')
 	map <leader>rn <Action>(RenameElement)
 	map <leader>rf :action RenameFile<CR>
 	map <leader>rr <Action>(ReformatCode)
+	map <leader>rR <Action>(ReformatWithPrettierAction)
 	map <leader>re <Action>(Javascript.Linters.EsLint.Fix)
 	map <leader>rs <Action>(Tool_External Tools_Stylelint.Fix)
 	map <leader>ri <Action>(OptimizeImports)
