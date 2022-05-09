@@ -278,6 +278,7 @@ if has('ide')
 	map <leader>md <Action>(ChooseDebugConfiguration)
 
 	map <leader>ms <Action>(SurroundWithLiveTemplate)
+	map <leader>mm <Action>(osmedile.intellij.stringmanip.PopupChoiceAction)
 
 	map <leader>mo <Action>(FileStructurePopup)
 	map <leader>mu <Action>(FindUsagesMenuGroup)
@@ -298,8 +299,8 @@ if has('ide')
 	" Hover mapping
 	map gh <Action>(ShowErrorDescription)
 	map gt <Action>(QuickTypeDefinition)
-	" map ge <Action>(EditSource)
-	map ge <Action>(Documentation.EditSource)
+	map ge <Action>(EditSource)
+	" map ge <Action>(Documentation.EditSource)
 
 	" Find action
 	nnoremap <leader>fa    :action GotoAction<CR>
