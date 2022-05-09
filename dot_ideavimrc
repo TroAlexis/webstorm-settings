@@ -297,6 +297,8 @@ if has('ide')
 
 	" Hover mapping
 	map gh <Action>(ShowErrorDescription)
+	map gt <Action>(QuickTypeDefinition)
+	map ge <Action>(EditSource)
 
 	" Find action
 	nnoremap <leader>fa    :action GotoAction<CR>
