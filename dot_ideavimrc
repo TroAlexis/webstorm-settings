@@ -36,12 +36,8 @@ if has('ide')
 	vnoremap <leader>pr    :action RecentFiles<CR>
 
 	" Project save
-	nnoremap <leader>pS    :action SaveAll<CR>
-	vnoremap <leader>pS    :action SaveAll<CR>
-
-	" Project document save
-	nnoremap <leader>ps    :action SaveDocument<CR>
-	vnoremap <leader>ps    :action SaveDocument<CR>
+	nnoremap <leader>ps    :action SaveAll<CR>
+	vnoremap <leader>ps    :action SaveAll<CR>
 
 	" Copy project file path
 	nnoremap <leader>pfy    :action CopyAbsolutePath<CR>
