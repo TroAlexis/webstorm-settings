@@ -7,7 +7,6 @@
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
   <action id="CodeCompletion">
-    <keyboard-shortcut first-keystroke="ctrl space" />
     <keyboard-shortcut first-keystroke="ctrl slash" />
   </action>
   <action id="CommentByBlockComment">
@@ -18,6 +17,7 @@
     <keyboard-shortcut first-keystroke="shift meta divide" />
     <keyboard-shortcut first-keystroke="shift meta divide" />
   </action>
+  <action id="Debug" />
   <action id="DockPinnedMode">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
@@ -41,6 +41,14 @@
   <action id="EditorLeftWithSelection">
     <keyboard-shortcut first-keystroke="shift left" />
     <keyboard-shortcut first-keystroke="shift alt h" />
+  </action>
+  <action id="EditorPageDown">
+    <keyboard-shortcut first-keystroke="page_down" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
+  </action>
+  <action id="EditorPageUp">
+    <keyboard-shortcut first-keystroke="page_up" />
+    <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
@@ -83,6 +91,8 @@
     <keyboard-shortcut first-keystroke="f12" />
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
+  <action id="MethodDown" />
+  <action id="MethodUp" />
   <action id="NewElementMenu">
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
@@ -114,6 +124,7 @@
   <action id="Terminal.NextSplitter" />
   <action id="Terminal.PrevSplitter" />
   <action id="UsageFiltering.Imports" />
+  <action id="UsageGrouping.DirectoryStructure" />
   <action id="UsageGrouping.FlattenModules" />
   <action id="VcsShowNextChangeMarker">
     <keyboard-shortcut first-keystroke="shift ctrl alt down" />
