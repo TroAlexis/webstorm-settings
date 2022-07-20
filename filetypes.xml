@@ -1,0 +1,12 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping pattern="Procfile" type="AUTO_DETECTED" />
+      <mapping pattern="pre-commit" type="AUTO_DETECTED" />
+      <mapping pattern=".prettierignore" type="GitIgnore file" />
+      <mapping pattern=".dockerignore" type="GitIgnore file" />
+      <mapping ext="py" type="PLAIN_TEXT" />
+      <removed_mapping ext="py" approved="true" type="Python" />
+    </extensionMap>
+  </component>
+</application>

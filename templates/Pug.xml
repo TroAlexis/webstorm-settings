@@ -1,0 +1,8 @@
+<templateSet group="Pug">
+  <template name="attr" value="&amp;attributes($ATTR$)" description="Add &amp;attributes to element" toReformat="false" toShortenFQNames="true">
+    <variable name="ATTR" expression="&quot;attributes&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+</templateSet>
