@@ -66,6 +66,10 @@
           <option name="url" value="https://github.com/juliacodes/JuliaCodes2019.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@tedo-git.gitlab.yandexcloud.net:grr/grr-common.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Development/WebstormProjects" />
