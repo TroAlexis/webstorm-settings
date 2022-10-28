@@ -70,6 +70,14 @@
           <option name="url" value="git@tedo-git.gitlab.yandexcloud.net:grr/grr-common.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@git.vega2.org:vega2/frontend/vega-rune-configuration.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@git.vega2.org:vega2/frontend/vega-rune.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Development/WebstormProjects" />
