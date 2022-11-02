@@ -82,6 +82,10 @@
           <option name="url" value="git@git.vega2.org:vega2/frontend/vega-rune-result.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@git.vega2.org:vega2/vega-toolbox.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Development/WebstormProjects" />
