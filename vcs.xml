@@ -67,7 +67,27 @@
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="git@github.com:TroAlexis/portfolio-2022.git" />
+          <option name="url" value="git@tedo-git.gitlab.yandexcloud.net:grr/grr-common.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@git.vega2.org:vega2/frontend/vega-rune-configuration.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@git.vega2.org:vega2/frontend/vega-rune.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@git.vega2.org:vega2/frontend/vega-rune-result.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@git.vega2.org:vega2/vega-toolbox.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@git.vega2.org:vega2/frontend/vega-ui.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
@@ -87,7 +107,6 @@
     </option>
   </component>
   <component name="VcsApplicationSettings">
-    <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/WebstormProjects/samolet-panel" />
     <option name="COMMIT_FROM_LOCAL_CHANGES" value="true" />
   </component>
   <component name="VcsEditorTab.Settings">
