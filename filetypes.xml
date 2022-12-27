@@ -6,6 +6,7 @@
       <mapping pattern=".prettierignore" type="GitIgnore file" />
       <mapping pattern=".dockerignore" type="GitIgnore file" />
       <mapping ext="py" type="PLAIN_TEXT" />
+      <mapping ext="" type="PLAIN_TEXT" />
       <removed_mapping ext="py" approved="true" type="Python" />
     </extensionMap>
   </component>
