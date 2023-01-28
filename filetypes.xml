@@ -5,9 +5,10 @@
       <mapping pattern="pre-commit" type="AUTO_DETECTED" />
       <mapping pattern=".prettierignore" type="GitIgnore file" />
       <mapping pattern=".dockerignore" type="GitIgnore file" />
-      <mapping ext="py" type="PLAIN_TEXT" />
       <mapping ext="" type="PLAIN_TEXT" />
+      <mapping ext="py" type="PLAIN_TEXT" />
       <removed_mapping ext="py" approved="true" type="Python" />
+      <removed_mapping pattern=".dockerignore" approved="true" type="DockerIgnore file" />
     </extensionMap>
   </component>
 </application>
