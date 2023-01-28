@@ -1,0 +1,12 @@
+<application>
+  <component name="com.kagof.intellij.plugins.pokeprogress.configuration.PokemonProgressState">
+    <option name="version" value="2.1.1" />
+    <option name="acceleration" value="0.1" />
+    <option name="theme" value="smooth" />
+    <option name="transparencyOnDeterminate" value="true" />
+    <option name="colorScheme" value="1_Official" />
+    <option name="restrictMaximumHeight" value="true" />
+    <option name="maximumHeight" value="15" />
+    <option name="minimumHeight" value="13" />
+  </component>
+</application>
