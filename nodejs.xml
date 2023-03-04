@@ -1,0 +1,31 @@
+<application>
+  <component name="NodeJsLocalInterpreterManager">
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v18.13.0/bin/node">
+      <version-cache version="18.13.0" last-modified="1672958405000" />
+    </local-interpreter>
+    <local-interpreter path="/opt/homebrew/bin/node">
+      <version-cache version="18.3.0" last-modified="1654705566738" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v16.18.0/bin/node">
+      <version-cache last-modified="0" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v16.4.0/bin/node">
+      <version-cache version="16.4.0" last-modified="1624442603000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v15.14.0/bin/node">
+      <version-cache version="15.14.0" last-modified="1617725158000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v14.20.0/bin/node">
+      <version-cache last-modified="0" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v14.17.1/bin/node">
+      <version-cache version="14.17.1" last-modified="1623760374000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v10.24.1/bin/node">
+      <version-cache version="10.24.1" last-modified="1617717520000" />
+    </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v10.16.0/bin/node">
+      <version-cache version="10.16.0" last-modified="1559078728000" />
+    </local-interpreter>
+  </component>
+</application>

@@ -1,0 +1,57 @@
+<templateSet group="Vue">
+  <template name="vc" value="&lt;$tag$ :class=&quot;$style.$class$&quot;&gt;$END$&lt;/$tag$&gt;" shortcut="ENTER" description="module class" toReformat="false" toShortenFQNames="true">
+    <variable name="tag" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_INSIDE_TAG" value="true" />
+      <option name="VUE_TEMPLATE" value="true" />
+    </context>
+  </template>
+  <template name="vprop" value="$propName$: {&#10;    type: $type$,&#10;    default: $default$$END$&#10;}," description="Vue props with default" toReformat="true" toShortenFQNames="true">
+    <variable name="propName" expression="" defaultValue="&quot;propName&quot;" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="&quot;Number&quot;" alwaysStopAt="true" />
+    <variable name="default" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+  <template name="vpropo" value="$propName$: {&#10;    type: Object,&#10;    default: () =&gt; ({})&#10;}," description="Vue props with default" toReformat="true" toShortenFQNames="true">
+    <variable name="propName" expression="" defaultValue="&quot;propName&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+  <template name="vpropa" value="$propName$: {&#10;    type: Array,&#10;    default: () =&gt; ([])&#10;}," description="Vue props with default" toReformat="true" toShortenFQNames="true">
+    <variable name="propName" expression="" defaultValue="&quot;propName&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+  <template name="vxmt" value="export const $mutationType$ = '$mutationType$';" description="Vuex mutation type" toReformat="false" toShortenFQNames="true">
+    <variable name="mutationType" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="vxa" value="$actionName$({commit$props$}, $payload$) {&#10;    $END$  &#10;}," description="Vuex action" toReformat="false" toShortenFQNames="true">
+    <variable name="actionName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="props" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="payload" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="vxat" value="export const $ACTION_TYPE$ = '$ACTION_TYPE_CAMEL$';" description="Vuex mutation type" toReformat="false" toShortenFQNames="true">
+    <variable name="ACTION_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACTION_TYPE_CAMEL" expression="camelCase(ACTION_TYPE)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
