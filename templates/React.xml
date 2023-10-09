@@ -5,4 +5,9 @@
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="ist" value="import styles from './style.module.scss';" description="Import scss module" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
