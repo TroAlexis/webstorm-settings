@@ -10,7 +10,7 @@
       <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="rused" value="const dispatch = useDispatch();" toReformat="false" toShortenFQNames="true">
+  <template name="rused" value="const dispatch = useDispatch();" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
