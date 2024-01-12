@@ -78,6 +78,7 @@
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="fl" value="for (let $index$ = 0; $index$ &lt; $iterable$.length; $index$++) {&#10;  $END$&#10;}" description="Flow Control: for loop" toReformat="false" toShortenFQNames="true">
@@ -653,11 +654,13 @@
   <template name="hmr" value="if (module.hot) {&#10;  module.hot.accept();&#10;}&#10;$END$" description="Add hmr for js script" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="exd" value="export default $END$;" description="Export default" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
 </templateSet>

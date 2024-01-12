@@ -3,6 +3,7 @@
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
     </context>
   </template>
   <template name="ist" value="import styles from './style.module.scss';" description="Import scss module" toReformat="false" toShortenFQNames="true">

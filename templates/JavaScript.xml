@@ -7,6 +7,7 @@
     <variable name="items" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="desta" value="const [$items$] = $array$;" description="Destructure array" toReformat="false" toShortenFQNames="true">
@@ -14,6 +15,7 @@
     <variable name="items" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
 </templateSet>
