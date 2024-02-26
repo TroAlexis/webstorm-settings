@@ -30,7 +30,6 @@
   <template name="vxmt" value="export const $mutationType$ = '$mutationType$';" description="Vuex mutation type" toReformat="false" toShortenFQNames="true">
     <variable name="mutationType" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="ECMAScript6" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
@@ -40,7 +39,6 @@
     <variable name="props" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="payload" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="ECMAScript6" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
@@ -49,10 +47,11 @@
     <variable name="ACTION_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ACTION_TYPE_CAMEL" expression="camelCase(ACTION_TYPE)" defaultValue="" alwaysStopAt="false" />
     <context>
-      <option name="ECMAScript6" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="vbase-3-setup" value="&lt;template&gt;&#10; &lt;div&gt;&#10;&#10; &lt;/div&gt;&#10;&lt;/template&gt;&#10;&#10;&lt;script setup lang=&quot;ts&quot;&gt;&#10;&#10;&lt;/script&gt;&#10;&#10;&lt;style lang=&quot;scss&quot; scoped&gt;&#10;&#10;&lt;/style&gt;" description="Base for Vue File Setup Composition API with SCSS" toReformat="true" toShortenFQNames="true" />
+  <template name="vbase-3-setup" value="&lt;template&gt;&#10; &lt;div&gt;&#10;&#10; &lt;/div&gt;&#10;&lt;/template&gt;&#10;&#10;&lt;script setup lang=&quot;ts&quot;&gt;&#10;&#10;&lt;/script&gt;&#10;&#10;&lt;style lang=&quot;scss&quot; scoped&gt;&#10;&#10;&lt;/style&gt;" description="Base for Vue File Setup Composition API with SCSS" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
