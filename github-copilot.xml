@@ -6,5 +6,7 @@
         <entry key="*" value="true" />
       </map>
     </languageAllowList>
+    <option name="showIdeCompletions" value="true" />
+    <option name="clientFetch" value="true" />
   </component>
 </application>
