@@ -1,15 +1,19 @@
 <application>
   <component name="StringManipulationState">
-    <option name="lastAction">
+    <option name="lastActionModel">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.switching.ToSnakeCaseOrCamelCaseAction" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.ToPascalCaseAction" />
+        <option name="description" value="To PascalCase" />
+        <option name="textWithMnemonic" value="To PascalCase" />
       </UniversalActionModel>
     </option>
     <option name="sortSettingsMap">
       <map>
         <entry key="SortAction">
           <value>
-            <SortSettings />
+            <SortSettings>
+              <option name="ignoreLeadingCharacters" value="//" />
+            </SortSettings>
           </value>
         </entry>
       </map>

@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="Procfile" type="AUTO_DETECTED" />
       <mapping pattern="pre-commit" type="AUTO_DETECTED" />
+      <mapping pattern=".env.example" type="AUTO_DETECTED" />
       <mapping pattern=".prettierignore" type="GitIgnore file" />
       <mapping pattern=".dockerignore" type="GitIgnore file" />
       <mapping ext="py" type="PLAIN_TEXT" />
