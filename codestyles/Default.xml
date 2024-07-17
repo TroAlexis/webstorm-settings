@@ -26,7 +26,6 @@
     <option name="ENFORCE_QUOTES_ON_FORMAT" value="true" />
   </ScssCodeStyleSettings>
   <TypeScriptCodeStyleSettings version="0">
-    <option name="USE_EXPLICIT_JS_EXTENSION" value="FALSE" />
     <option name="IMPORT_SORT_MODULE_NAME" value="true" />
   </TypeScriptCodeStyleSettings>
   <VueCodeStyleSettings>
