@@ -2,9 +2,9 @@
   <component name="StringManipulationState">
     <option name="lastActionModel">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.switching.ToScreamingSnakeCaseOrCamelCaseAction" />
-        <option name="description" value="Toggle: SCREAMING_SNAKE_CASE / camelCase" />
-        <option name="textWithMnemonic" value="SCREAMINGSNAKE__CASE / camelCase" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.swap.EducateQuoteAction" />
+        <option name="description" value="' -&gt; ‘ and  &quot; -&gt; ”" />
+        <option name="textWithMnemonic" value="Educate Quotes" />
       </UniversalActionModel>
     </option>
     <option name="sortSettingsMap">
