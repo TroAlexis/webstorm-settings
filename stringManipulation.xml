@@ -2,9 +2,9 @@
   <component name="StringManipulationState">
     <option name="lastActionModel">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.swap.EducateQuoteAction" />
-        <option name="description" value="' -&gt; ‘ and  &quot; -&gt; ”" />
-        <option name="textWithMnemonic" value="Educate Quotes" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.transform.MinifyJsonAction" />
+        <option name="description" value="Using github.com/stleary/JSON-java" />
+        <option name="textWithMnemonic" value="Minify JSON" />
       </UniversalActionModel>
     </option>
     <option name="sortSettingsMap">
