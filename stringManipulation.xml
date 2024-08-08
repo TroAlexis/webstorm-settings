@@ -2,9 +2,9 @@
   <component name="StringManipulationState">
     <option name="lastActionModel">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.transform.MinifyJsonAction" />
-        <option name="description" value="Using github.com/stleary/JSON-java" />
-        <option name="textWithMnemonic" value="Minify JSON" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.styles.switching.ToScreamingSnakeCaseOrCamelCaseAction" />
+        <option name="description" value="Toggle: SCREAMING_SNAKE_CASE / camelCase" />
+        <option name="textWithMnemonic" value="SCREAMINGSNAKE__CASE / camelCase" />
       </UniversalActionModel>
     </option>
     <option name="sortSettingsMap">
