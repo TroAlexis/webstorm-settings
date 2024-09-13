@@ -104,6 +104,9 @@
   <action id="NextWindow">
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
+  <action id="OpenInlineChatAction">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
   <action id="OverrideMethods" />
   <action id="PrevSplitter" />
   <action id="PreviousDiff">
