@@ -4,6 +4,7 @@
       <list>
         <option value="dev.nx.console" />
         <option value="org.jetbrains.plugins.stylus" />
+        <option value="com.intellij.aqua" />
       </list>
     </option>
   </component>
