@@ -1,0 +1,8 @@
+<templateSet group="React hooks">
+  <template name="useTranslation" value="const { t } = useTranslation();" description="const { t } = useTranslation();" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
