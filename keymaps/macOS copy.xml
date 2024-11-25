@@ -147,10 +147,7 @@
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
   <action id="copilot.applyInlays">
-    <keyboard-shortcut first-keystroke="meta right" />
-  </action>
-  <action id="copilot.applyInlaysNextWord">
-    <keyboard-shortcut first-keystroke="meta alt right" />
+    <keyboard-shortcut first-keystroke="meta l" />
   </action>
   <action id="copilot.disposeInlays" />
   <action id="copilot.openCopilot">
