@@ -79,6 +79,8 @@
   </action>
   <action id="Generate.Missing.Members.ES6" />
   <action id="Generate.Missing.Members.TypeScript" />
+  <action id="GotoLine" />
+  <action id="GotoRow" />
   <action id="HideActiveWindow">
     <keyboard-shortcut first-keystroke="alt x" />
   </action>
